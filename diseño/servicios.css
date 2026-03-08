@@ -7,11 +7,18 @@
 
 body {
     font-family: "Georgia", "Times New Roman", serif;
-    background-color: #1c2833; 
-    color: #ecf0f1;
-    padding: 70px 20px;
-}
 
+    background: 
+    linear-gradient(rgba(11,31,58,0.85), rgba(11,31,58,0.85)),
+    url("../assets/fondo1.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    padding: 60px 0;
+}
 
 .servicios {
     max-width: 1000px;
